@@ -1,4 +1,4 @@
-![example workflow](https://github.com/Ivan-Skvortsov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![workflow](https://github.com/Ivan-Skvortsov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 <div id="top"></div>
 <div align="center">
 <h1>Проект YamDb final</h1>
