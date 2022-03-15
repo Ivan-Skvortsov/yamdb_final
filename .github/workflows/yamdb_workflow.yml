@@ -8,7 +8,7 @@ on:
 
 jobs:
   tests:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -26,3 +26,7 @@ jobs:
       - name: Test PEP8 and run pytests
         run: |
           python -m flake8
+          python -m pytest
+    
+  # build_and_push_to_dockerhub:
+  #   runs-on: ubuntu-latest
