@@ -24,4 +24,4 @@ jobs:
       
       - name: Test PEP8 and run pytests
         run: |
-          pytthon -m flake8
+          python -m flake8
