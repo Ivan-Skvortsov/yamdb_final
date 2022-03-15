@@ -22,6 +22,6 @@ jobs:
           pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
           pip install -r requirements.txt
       
-      - mame: Test PEP8 and run pytests
+      - name: Test PEP8 and run pytests
         run: |
           pytthon -m flake8
