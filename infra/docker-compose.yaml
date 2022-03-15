@@ -10,6 +10,7 @@ services:
   
   web:
     image: profcheg/yamdb_final:latest
+    command: sh -c "gunicorn api_yamdb.wsgi:application --bind 0:8000"
     restart: always
     volumes:
       - static_value:/app/static/
