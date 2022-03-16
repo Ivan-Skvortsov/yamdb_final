@@ -16,6 +16,8 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY ./docker-entrypoint.sh ./docker-entrypoint.sh
 
+COPY staticfiles staticfiles
+
 COPY . .
 
 ENTRYPOINT ["./docker-entrypoint.sh" ]
